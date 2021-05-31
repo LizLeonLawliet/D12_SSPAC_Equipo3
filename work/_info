@@ -1,0 +1,369 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Verilog/Actividad09
+vADD_1
+Z0 !s110 1622036436
+!i10b 1
+!s100 nS74@R7=CTdD94m@5@@Ub0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ikfb49BR;OkJ<bagPDe^PF3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Verilog/Fase1
+w1621968359
+8C:/Verilog/Fase1/ADD_1_p.v
+FC:/Verilog/Fase1/ADD_1_p.v
+!i122 196
+Z4 L0 3 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1622036435.000000
+!s107 C:/Verilog/Fase1/ADD_1_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/ADD_1_p.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@d@d_1
+vADD_2
+R0
+!i10b 1
+!s100 XA_o[OP9VY_Eja99ndi`z3
+R1
+IbZ`PA2`]7FXjEAYIP3^=90
+R2
+R3
+w1621972700
+8C:/Verilog/Fase1/ADD_2_p.v
+FC:/Verilog/Fase1/ADD_2_p.v
+!i122 197
+L0 3 9
+R5
+r1
+!s85 0
+31
+Z9 !s108 1622036436.000000
+!s107 C:/Verilog/Fase1/ADD_2_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/ADD_2_p.v|
+!i113 1
+R7
+R8
+n@a@d@d_2
+vALU
+Z10 !s110 1622036435
+!i10b 1
+!s100 m<W4XN=T[@njf1a97JY113
+R1
+Ie=QQJ7k9kM?CVQ54J<DWS1
+R2
+R3
+w1622036418
+8C:\Verilog\Fase1\ALU_p.v
+FC:\Verilog\Fase1\ALU_p.v
+!i122 192
+L0 3 55
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:\Verilog\Fase1\ALU_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Verilog\Fase1\ALU_p.v|
+!i113 1
+R7
+R8
+n@a@l@u
+vALU_Control
+R10
+!i10b 1
+!s100 obObe?1=EcoRe4aUzRlFT3
+R1
+IX96^VZmEXoU4P;K]]cz[53
+R2
+R3
+w1622036392
+8C:\Verilog\Fase1\ALU_Control_p.v
+FC:\Verilog\Fase1\ALU_Control_p.v
+!i122 191
+L0 3 42
+R5
+r1
+!s85 0
+31
+Z11 !s108 1622036434.000000
+!s107 C:\Verilog\Fase1\ALU_Control_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Verilog\Fase1\ALU_Control_p.v|
+!i113 1
+R7
+R8
+n@a@l@u_@control
+vBancoReg
+R10
+!i10b 1
+!s100 ?MUNX_6mC`=QU=jc8<]on2
+R1
+Im;9JgaFgMHMX6FEKQ30El3
+R2
+R3
+w1621997040
+8C:/Verilog/Fase1/BancoRegistros_p.v
+FC:/Verilog/Fase1/BancoRegistros_p.v
+!i122 193
+L0 3 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Verilog/Fase1/BancoRegistros_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/BancoRegistros_p.v|
+!i113 1
+R7
+R8
+n@banco@reg
+vDPTR
+Z12 !s110 1622036434
+!i10b 1
+!s100 mcLDkYBQ8mhU>bJ?:oDC93
+R1
+ILi^J:GRkJj5eh7zW[Fme11
+R2
+R3
+w1622035893
+8C:\Verilog\Fase1\DPTR.v
+FC:\Verilog\Fase1\DPTR.v
+!i122 188
+L0 5 151
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:\Verilog\Fase1\DPTR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Verilog\Fase1\DPTR.v|
+!i113 1
+R7
+R8
+n@d@p@t@r
+vInstruccionMemory
+R0
+!i10b 1
+!s100 e31bAK?GJnT>60O3a444P2
+R1
+I_>c<mWDHEaHKQabjFi3SU3
+R2
+R3
+w1621978377
+8C:/Verilog/Fase1/InstruccionMemory_p.v
+FC:/Verilog/Fase1/InstruccionMemory_p.v
+!i122 198
+L0 3 15
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Verilog/Fase1/InstruccionMemory_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/InstruccionMemory_p.v|
+!i113 1
+R7
+R8
+n@instruccion@memory
+vmem32x32
+R0
+!i10b 1
+!s100 aQnJ]ffSX@a@YIXnaN@Y:0
+R1
+I=KDLgimQ<D>N84oIKcMaV3
+R2
+R3
+w1621967617
+8C:/Verilog/Fase1/Memoria_p.v
+FC:/Verilog/Fase1/Memoria_p.v
+!i122 199
+Z13 L0 3 21
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Verilog/Fase1/Memoria_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/Memoria_p.v|
+!i113 1
+R7
+R8
+vMux2_1_32
+R10
+!i10b 1
+!s100 ?>eDQ^LI=Bl>M^[O6j@DU0
+R1
+ISliG:33jAF]mMb0ffFMmm1
+R2
+R3
+w1621978708
+8C:/Verilog/Fase1/Mux2_1_p.v
+FC:/Verilog/Fase1/Mux2_1_p.v
+!i122 194
+R13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Verilog/Fase1/Mux2_1_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/Mux2_1_p.v|
+!i113 1
+R7
+R8
+n@mux2_1_32
+vMux2_1_5
+R0
+!i10b 1
+!s100 3DRALYC]m]hZF[;^3JPi23
+R1
+IMdoKC^`FKZ_0DPgYWLcMK1
+R2
+R3
+w1621971107
+8C:/Verilog/Fase1/Mux2_15b_p.v
+FC:/Verilog/Fase1/Mux2_15b_p.v
+!i122 201
+R13
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Verilog/Fase1/Mux2_15b_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/Mux2_15b_p.v|
+!i113 1
+R7
+R8
+n@mux2_1_5
+vPC
+R10
+!i10b 1
+!s100 4Xah8UZQT1dY4dHPfV0VB3
+R1
+IIYeghQf2AGFFP=al5k2=Z0
+R2
+R3
+w1621979712
+8C:/Verilog/Fase1/PC.v
+FC:/Verilog/Fase1/PC.v
+!i122 195
+L0 3 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Verilog/Fase1/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/PC.v|
+!i113 1
+R7
+R8
+n@p@c
+vshift_left2
+R0
+!i10b 1
+!s100 :8e:^U?JiQNm`6C7oQ[JQ0
+R1
+I=94mLdbS0I8<69EgO:;dI3
+R2
+R3
+w1621967614
+8C:/Verilog/Fase1/ShiftLeft2_p.v
+FC:/Verilog/Fase1/ShiftLeft2_p.v
+!i122 200
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/Verilog/Fase1/ShiftLeft2_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/ShiftLeft2_p.v|
+!i113 1
+R7
+R8
+vSignExtend
+R12
+!i10b 1
+!s100 c<`O;:GKX_Z?5oAQOajN]3
+R1
+IfdINc8_gJCX`c^YJ4H`L92
+R2
+R3
+w1621966846
+8C:/Verilog/Fase1/SignExtend_p.v
+FC:/Verilog/Fase1/SignExtend_p.v
+!i122 189
+L0 3 23
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Verilog/Fase1/SignExtend_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/SignExtend_p.v|
+!i113 1
+R7
+R8
+n@sign@extend
+vtb_DPTR
+!s110 1622036437
+!i10b 1
+!s100 HS@SZHAk6JoHidMZ_U3_C0
+R1
+I>:1Ym7m5f?FWWk[;f`HUO0
+R2
+R3
+w1621987038
+8C:/Verilog/Fase1/tb_DPTR.v
+FC:/Verilog/Fase1/tb_DPTR.v
+!i122 202
+L0 5 26
+R5
+r1
+!s85 0
+31
+!s108 1622036437.000000
+!s107 C:/Verilog/Fase1/tb_DPTR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/tb_DPTR.v|
+!i113 1
+R7
+R8
+ntb_@d@p@t@r
+vUnidadDeControl
+R12
+!i10b 1
+!s100 GW0Wj?[]HKZ>Nl2AA0o;O3
+R1
+I_W<E:M_W47zhhl^TN;?S73
+R2
+R3
+w1621966847
+8C:/Verilog/Fase1/UnidadDeControl_p.v
+FC:/Verilog/Fase1/UnidadDeControl_p.v
+!i122 190
+L0 3 31
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Verilog/Fase1/UnidadDeControl_p.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Verilog/Fase1/UnidadDeControl_p.v|
+!i113 1
+R7
+R8
+n@unidad@de@control

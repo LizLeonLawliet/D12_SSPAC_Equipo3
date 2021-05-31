@@ -1,0 +1,193 @@
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful with warnings.
+# Compile of ALU_p.v was successful with warnings.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.DPTR
+# vsim work.DPTR 
+# Start time: 08:35:39 on May 26,2021
+# Loading work.DPTR
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.Mux2_1_32
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/DPTR/c1
+add wave -position end  sim:/DPTR/c2
+add wave -position end  sim:/DPTR/c3
+add wave -position end  sim:/DPTR/c4
+add wave -position end  sim:/DPTR/c5
+add wave -position end  sim:/DPTR/c6
+add wave -position end  sim:/DPTR/c7
+add wave -position end  sim:/DPTR/c8
+add wave -position end  sim:/DPTR/c9
+add wave -position end  sim:/DPTR/c10
+add wave -position end  sim:/DPTR/c11
+add wave -position end  sim:/DPTR/c12
+add wave -position end  sim:/DPTR/c13
+add wave -position end  sim:/DPTR/c14
+add wave -position end  sim:/DPTR/c15
+add wave -position end  sim:/DPTR/c16
+add wave -position end  sim:/DPTR/c17
+add wave -position end  sim:/DPTR/c18
+add wave -position end  sim:/DPTR/c19
+add wave -position end  sim:/DPTR/c20
+add wave -position end  sim:/DPTR/c21
+add wave -position end  sim:/DPTR/c22
+add wave -position end  sim:/DPTR/c23
+add wave -position end  sim:/DPTR/c24
+add wave -position end  sim:/DPTR/c25
+add wave -position end  sim:/DPTR/clk
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+force -freeze sim:/DPTR/clk 0 0
+run
+force -freeze sim:/DPTR/clk 1 0
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.DPTR
+# End time: 08:41:24 on May 26,2021, Elapsed time: 0:05:45
+# Errors: 0, Warnings: 3
+# vsim work.DPTR 
+# Start time: 08:41:24 on May 26,2021
+# Loading work.DPTR
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.Mux2_1_32
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/DPTR/c1
+add wave -position end  sim:/DPTR/c2
+add wave -position end  sim:/DPTR/c3
+add wave -position end  sim:/DPTR/c4
+add wave -position end  sim:/DPTR/c5
+add wave -position end  sim:/DPTR/c6
+add wave -position end  sim:/DPTR/c7
+add wave -position end  sim:/DPTR/c8
+add wave -position end  sim:/DPTR/c9
+add wave -position end  sim:/DPTR/c10
+add wave -position end  sim:/DPTR/c11
+add wave -position end  sim:/DPTR/c12
+add wave -position end  sim:/DPTR/c13
+add wave -position end  sim:/DPTR/c14
+add wave -position end  sim:/DPTR/c15
+add wave -position end  sim:/DPTR/c16
+add wave -position end  sim:/DPTR/c17
+add wave -position end  sim:/DPTR/c18
+add wave -position end  sim:/DPTR/c19
+add wave -position end  sim:/DPTR/c20
+add wave -position end  sim:/DPTR/c21
+add wave -position end  sim:/DPTR/c22
+add wave -position end  sim:/DPTR/c23
+add wave -position end  sim:/DPTR/c24
+add wave -position end  sim:/DPTR/c25
+add wave -position end  sim:/DPTR/clk
+force -freeze sim:/DPTR/c1 10100 0
+force -freeze sim:/DPTR/clk 1 0
+run
+vsim work.DPTR
+# End time: 08:42:27 on May 26,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 1
+# vsim work.DPTR 
+# Start time: 08:42:27 on May 26,2021
+# Loading work.DPTR
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.Mux2_1_32
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+vsim work.tb_DPTR
+# End time: 08:42:39 on May 26,2021, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+# vsim work.tb_DPTR 
+# Start time: 08:42:39 on May 26,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.Mux2_1_32
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+run -all
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 1200 ns  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# End time: 09:17:59 on May 26,2021, Elapsed time: 0:35:20
+# Errors: 0, Warnings: 1
