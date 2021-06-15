@@ -11,41 +11,49 @@ module ALU(
 always @*
 begin
 	case (Selector_op)
-		4'b0000:
+		4'b0000: // SUMA
 		begin
 			resultado = A + B;
 		end
-		4'b0001:
+		4'b0001: // RESTA
 		begin
 			resultado = A - B;
 		end
-        4'b0010:
+        4'b0010: // MULT
 		begin
 			resultado = A * B;
 		end
-        4'b0011: 
+        4'b0011: // SLT
 		begin
 			resultado = (A < B) ? 1 : 0;
 		end
-        4'b0100:
+        4'b0100: // AND
 		begin
 			resultado = A & B;
 		end
-        4'b0101:
+        4'b0101: // OR
 		begin
 			resultado = A | B;
 		end
-        4'b0110:
+        4'b0110: // Corrimiento 1 bit izquierda
 		begin
 			resultado = A << 1;
 		end
-        4'b0111:
+        4'b0111: // XOR
 		begin
 			resultado = A ^ B;
 		end
-		4'b1000:
+		4'b1000: // NOP
 		begin
 			resultado = 0;
+		end
+		4'b1001: // BNE
+		begin
+			resultado = (A != B) ? 0 : 1;
+		end
+		4'b1010: // BGTZ
+		begin
+			resultado = (A > 0) ? 0 : 1;
 		end
 	endcase
     if (resultado==32'd0) begin

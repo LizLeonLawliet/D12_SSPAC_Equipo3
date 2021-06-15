@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 
 module ALU_Control(
-	input [2:0]ALUOP,
+	input [3:0]ALUOP,
 	input [5:0]Function,
 	output reg [3:0]selecOP
 );
@@ -9,7 +9,7 @@ module ALU_Control(
 always @*
 begin 
 	case(ALUOP)
-		3'b010:
+		4'b0010:
 		begin
 		case(Function)
 			6'b100000://ADD
@@ -38,7 +38,42 @@ begin
 			end
 		endcase
 		end
+		4'b0000: // ADDI
+		begin
+			selecOP=4'b0000;
+		end
+		4'b0001: // ORI
+		begin
+			selecOP=4'b0101;
+		end
+		4'b0011: // ANDI
+		begin
+			selecOP=4'b0100;
+		end
+		4'b0100: // LW
+		begin
+			selecOP=4'b0000;
+		end
+		4'b0101: // SW
+		begin
+			selecOP=4'b0000;
+		end
+		4'b0110: // SLTI
+		begin
+			selecOP=4'b0011;
+		end
+		4'b0111: // BEQ
+		begin
+			selecOP=4'b0001;
+		end
+		4'b1000: // BNE
+		begin
+			selecOP=4'b1001;
+		end
+		4'b1001: // BGTZ
+		begin
+			selecOP=4'b1010;
+		end
 	endcase 
-
 end
 endmodule	

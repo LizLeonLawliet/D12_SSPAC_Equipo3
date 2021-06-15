@@ -22,7 +22,7 @@ always #100 clk = ~clk;
 
 initial begin
     // señales del testbench
-    #1200
+    #6200
     $stop;
 
 end

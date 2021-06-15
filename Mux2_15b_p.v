@@ -10,11 +10,11 @@ module Mux2_1_5(
 always @*
 begin
 	case(selec)
-		1'b1:
+		1'b0:
 		begin
 		Resultado = A;
 		end
-		1'b0:
+		1'b1:
 		begin
 		Resultado = B;
 		end
