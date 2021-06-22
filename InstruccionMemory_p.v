@@ -9,7 +9,7 @@ reg [7:0]InsMem[0:399];
 
 // cargamos las instrucciones
 initial begin
-    $readmemb("TestF2_MemInst",InsMem);
+    $readmemb("binarioBinomioAlCuadrado.txt",InsMem);
 end
 
 assign Instruccion = {InsMem[Adress],InsMem[Adress+1],InsMem[Adress+2],InsMem[Adress+3]};

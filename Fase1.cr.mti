@@ -26,6 +26,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bufferex_mem
 
+} {} {}} C:/Verilog/Fase1/ShiftLeft2_J.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/ShiftLeft2_J.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_left2_InstruccionesJ
+
+Top level modules:
+	shift_left2_InstruccionesJ
+
 } {} {}} C:/Verilog/Fase1/SignExtend_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/SignExtend_p.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module SignExtend
@@ -40,6 +47,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ADD_1
 
+} {} {}} C:/Verilog/Fase1/Memoria_p.v {2 {vlog -work work -stats=none {C:\Verilog\Fase1\Memoria_p.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem32x32
+** Warning: C:\Verilog\Fase1\Memoria_p.v(23): (vlog-2182) 'mem1' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	mem32x32
+
 } {} {}} C:/Verilog/Fase1/InstruccionMemory_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/InstruccionMemory_p.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module InstruccionMemory
@@ -47,7 +62,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	InstruccionMemory
 
-} {} {}} C:/Verilog/Fase1/ALU_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/ALU_p.v
+} {} {}} C:/Verilog/Fase1/ALU_p.v {1 {vlog -work work -stats=none {C:\Verilog\Fase1\ALU_p.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ALU
 
@@ -60,21 +75,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ADD_2
-
-} {} {}} C:/Verilog/Fase1/Memoria_p.v {2 {vlog -work work -stats=none C:/Verilog/Fase1/Memoria_p.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mem32x32
-** Warning: C:/Verilog/Fase1/Memoria_p.v(16): (vlog-2182) 'mem1' might be read before written in always_comb or always @* block.
-
-Top level modules:
-	mem32x32
-
-} {} {}} C:/Verilog/Fase1/DPTR.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/DPTR.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DPTR
-
-Top level modules:
-	DPTR
 
 } {} {}} C:/Verilog/Fase1/ShiftLeft2_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/ShiftLeft2_p.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -90,6 +90,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bufferid_ex
 
+} {} {}} C:/Verilog/Fase1/DPTR.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/DPTR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DPTR
+
+Top level modules:
+	DPTR
+
+} {} {}} C:/Verilog/Fase1/BancoRegistros_p.v {1 {vlog -work work -stats=none {C:\Verilog\Fase1\BancoRegistros_p.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BancoReg
+
+Top level modules:
+	BancoReg
+
 } {} {}} C:/Verilog/Fase1/buffer_if_id.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/buffer_if_id.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module bufferif_id
@@ -97,21 +111,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bufferif_id
 
-} {} {}} C:/Verilog/Fase1/BancoRegistros_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/BancoRegistros_p.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module BancoReg
-
-Top level modules:
-	BancoReg
-
-} {} {}} C:/Verilog/Fase1/UnidadDeControl_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/UnidadDeControl_p.v
+} {} {}} C:/Verilog/Fase1/UnidadDeControl_p.v {1 {vlog -work work -stats=none {C:\Verilog\Fase1\UnidadDeControl_p.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module UnidadDeControl
 
 Top level modules:
 	UnidadDeControl
 
-} {} {}} C:/Verilog/Fase1/tb_DPTR.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/tb_DPTR.v
+} {} {}} C:/Verilog/Fase1/tb_DPTR.v {1 {vlog -work work -stats=none {C:\Verilog\Fase1\tb_DPTR.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module tb_DPTR
 
@@ -125,7 +132,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	buffermem_wb
 
-} {} {}} C:/Verilog/Fase1/ALU_Control_p.v {1 {vlog -work work -stats=none C:/Verilog/Fase1/ALU_Control_p.v
+} {} {}} C:/Verilog/Fase1/ALU_Control_p.v {1 {vlog -work work -stats=none {C:\Verilog\Fase1\ALU_Control_p.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ALU_Control
 

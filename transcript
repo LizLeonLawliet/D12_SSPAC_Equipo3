@@ -1,0 +1,3454 @@
+vsim work.tb_DPTR
+# vsim work.tb_DPTR 
+# Start time: 08:41:15 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'N' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'a' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'N' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 6200 ns  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 08:43:36 on Jun 21,2021, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 5
+# vsim work.tb_DPTR 
+# Start time: 08:43:36 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'N' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'a' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'N' in data on line 18 of file "binarioBinomioAlCuadrado.txt".    : C:/Verilog/Fase1/InstruccionMemory_p.v(12)
+#    Time: 0 ns  Iteration: 0  Instance: /tb_DPTR/DUV/MemInst
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 08:46:15 on Jun 21,2021, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 5
+# vsim work.tb_DPTR 
+# Start time: 08:46:15 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run -all
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 6200 ns  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 08:52:12 on Jun 21,2021, Elapsed time: 0:05:57
+# Errors: 0, Warnings: 3
+# vsim work.tb_DPTR 
+# Start time: 08:52:12 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run -all
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 6200 ns  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+vsim work.tb_DPTR
+# End time: 08:57:19 on Jun 21,2021, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 1
+# vsim work.tb_DPTR 
+# Start time: 08:57:19 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run -all
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 20 us  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bufferif_id
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.buffermem_wb
+force -freeze sim:/tb_DPTR/clk 0 0, 1 {100 ns} -r 200
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 09:46:11 on Jun 21,2021, Elapsed time: 0:48:52
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 09:46:11 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+force -freeze sim:/tb_DPTR/clk 1 0, 0 {100 ns} -r 200
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/tb_DPTR/clk 0 0, 1 {50 ns} -r 100
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/tb_DPTR/clk 0 0, 1 {100 ns} -r 200
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 10:01:36 on Jun 21,2021, Elapsed time: 0:15:25
+# Errors: 0, Warnings: 3
+# vsim work.tb_DPTR 
+# Start time: 10:01:36 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 10:17:33 on Jun 21,2021, Elapsed time: 0:15:57
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 10:17:33 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 10:46:22 on Jun 21,2021, Elapsed time: 0:28:49
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 10:46:22 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 10:52:18 on Jun 21,2021, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 10:52:18 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 10:59:52 on Jun 21,2021, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 10:59:52 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/tb_DPTR/clk 0 0
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+force -freeze sim:/tb_DPTR/clk 1 0, 0 {100 ns} -r 200
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 14:51:25 on Jun 21,2021, Elapsed time: 3:51:33
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 13:51:25 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+force -freeze sim:/tb_DPTR/clk 0 0
+run
+run
+force -freeze sim:/tb_DPTR/clk 1 0, 0 {50 ns} -r 100
+run
+restart
+force -freeze sim:/tb_DPTR/clk 0 0
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+force -freeze sim:/tb_DPTR/clk 1 0, 0 {100 ns} -r 200
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 14:36:09 on Jun 21,2021, Elapsed time: 0:44:44
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 14:36:09 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/tb_DPTR/clk 0 0
+run
+run
+force -freeze sim:/tb_DPTR/clk 1 0, 0 {100 ns} -r 200
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 15:07:15 on Jun 21,2021, Elapsed time: 0:31:06
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 15:07:15 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run -all
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 20 us  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 15:16:31 on Jun 21,2021, Elapsed time: 0:09:16
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 15:16:31 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 20 us  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 15:40:55 on Jun 21,2021, Elapsed time: 0:24:24
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 15:40:55 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 20 us  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+run
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+run
+run
+run
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+run
+run
+run
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 16:08:37 on Jun 21,2021, Elapsed time: 0:27:42
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 16:08:38 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 20 us  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+restart
+# Compile of DPTR.v was successful.
+# Compile of SignExtend_p.v was successful.
+# Compile of UnidadDeControl_p.v was successful.
+# Compile of ALU_Control_p.v was successful.
+# Compile of ALU_p.v was successful.
+# Compile of BancoRegistros_p.v was successful.
+# Compile of Mux2_1_p.v was successful.
+# Compile of PC.v was successful.
+# Compile of ADD_1_p.v was successful.
+# Compile of ADD_2_p.v was successful.
+# Compile of InstruccionMemory_p.v was successful.
+# Compile of Memoria_p.v was successful with warnings.
+# Compile of ShiftLeft2_p.v was successful.
+# Compile of Mux2_15b_p.v was successful.
+# Compile of tb_DPTR.v was successful.
+# Compile of buffer_ex_mem.v was successful.
+# Compile of buffer_id_ex.v was successful.
+# Compile of buffer_if_id.v was successful.
+# Compile of buffer_mem_wb.v was successful.
+# Compile of ShiftLeft2_J.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.tb_DPTR
+# End time: 16:12:56 on Jun 21,2021, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 2
+# vsim work.tb_DPTR 
+# Start time: 16:12:56 on Jun 21,2021
+# Loading work.tb_DPTR
+# Loading work.DPTR
+# Loading work.bufferif_id
+# Loading work.PC
+# Loading work.InstruccionMemory
+# Loading work.ADD_1
+# Loading work.bufferid_ex
+# Loading work.shift_left2_InstruccionesJ
+# Loading work.Mux2_1_32
+# Loading work.bufferex_mem
+# Loading work.buffermem_wb
+# Loading work.UnidadDeControl
+# Loading work.Mux2_1_5
+# Loading work.ALU_Control
+# Loading work.BancoReg
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.mem32x32
+# Loading work.shift_left2
+# Loading work.ADD_2
+add wave -position end  sim:/tb_DPTR/clk
+add wave -position end  sim:/tb_DPTR/DUV/c1
+add wave -position end  sim:/tb_DPTR/DUV/c2
+add wave -position end  sim:/tb_DPTR/DUV/c3
+add wave -position end  sim:/tb_DPTR/DUV/c4
+add wave -position end  sim:/tb_DPTR/DUV/c5
+add wave -position end  sim:/tb_DPTR/DUV/c6
+add wave -position end  sim:/tb_DPTR/DUV/c7
+add wave -position end  sim:/tb_DPTR/DUV/c8
+add wave -position end  sim:/tb_DPTR/DUV/c9
+add wave -position end  sim:/tb_DPTR/DUV/c10
+add wave -position end  sim:/tb_DPTR/DUV/c11
+add wave -position end  sim:/tb_DPTR/DUV/c12
+add wave -position end  sim:/tb_DPTR/DUV/c13
+add wave -position end  sim:/tb_DPTR/DUV/c14
+add wave -position end  sim:/tb_DPTR/DUV/c15
+add wave -position end  sim:/tb_DPTR/DUV/c16
+add wave -position end  sim:/tb_DPTR/DUV/c17
+add wave -position end  sim:/tb_DPTR/DUV/c18
+add wave -position end  sim:/tb_DPTR/DUV/c19
+add wave -position end  sim:/tb_DPTR/DUV/c20
+add wave -position end  sim:/tb_DPTR/DUV/c21
+add wave -position end  sim:/tb_DPTR/DUV/c22
+add wave -position end  sim:/tb_DPTR/DUV/c23
+add wave -position end  sim:/tb_DPTR/DUV/c24
+add wave -position end  sim:/tb_DPTR/DUV/c25
+add wave -position end  sim:/tb_DPTR/DUV/c26
+add wave -position end  sim:/tb_DPTR/DUV/c27
+add wave -position end  sim:/tb_DPTR/DUV/c28
+add wave -position end  sim:/tb_DPTR/DUV/c29
+add wave -position end  sim:/tb_DPTR/DUV/c30
+add wave -position end  sim:/tb_DPTR/DUV/c31
+add wave -position end  sim:/tb_DPTR/DUV/c32
+add wave -position end  sim:/tb_DPTR/DUV/c33
+add wave -position end  sim:/tb_DPTR/DUV/c34
+add wave -position end  sim:/tb_DPTR/DUV/c35
+add wave -position end  sim:/tb_DPTR/DUV/c36
+add wave -position end  sim:/tb_DPTR/DUV/c37
+add wave -position end  sim:/tb_DPTR/DUV/c38
+add wave -position end  sim:/tb_DPTR/DUV/c39
+add wave -position end  sim:/tb_DPTR/DUV/c40
+add wave -position end  sim:/tb_DPTR/DUV/c41
+add wave -position end  sim:/tb_DPTR/DUV/c42
+add wave -position end  sim:/tb_DPTR/DUV/c43
+add wave -position end  sim:/tb_DPTR/DUV/c44
+add wave -position end  sim:/tb_DPTR/DUV/c45
+add wave -position end  sim:/tb_DPTR/DUV/c46
+add wave -position end  sim:/tb_DPTR/DUV/c47
+add wave -position end  sim:/tb_DPTR/DUV/c48
+add wave -position end  sim:/tb_DPTR/DUV/c49
+add wave -position end  sim:/tb_DPTR/DUV/c50
+add wave -position end  sim:/tb_DPTR/DUV/c51
+add wave -position end  sim:/tb_DPTR/DUV/c52
+add wave -position end  sim:/tb_DPTR/DUV/clk
+run
+# ** Note: $stop    : C:/Verilog/Fase1/tb_DPTR.v(26)
+#    Time: 68600 ns  Iteration: 0  Instance: /tb_DPTR
+# Break in Module tb_DPTR at C:/Verilog/Fase1/tb_DPTR.v line 26
+# End time: 18:10:55 on Jun 21,2021, Elapsed time: 1:57:59
+# Errors: 0, Warnings: 2

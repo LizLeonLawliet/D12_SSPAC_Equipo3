@@ -10,6 +10,13 @@ module mem32x32(
 
 reg [31:0]mem1[0:31];
  
+// cargamos los registros 1 y 2 para uso de nuestro programa en ensamblador
+initial begin
+    $readmemb("memoria",mem1);
+end
+
+
+
 always @*
 begin
 	if(MemRead==1'b1)begin

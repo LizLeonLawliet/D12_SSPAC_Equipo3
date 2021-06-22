@@ -13,12 +13,12 @@ module BancoReg(
 reg [31:0]Banco[0:31];
 
 initial begin
-	$readmemb("TestF1_BReg",Banco);
+	$readmemb("bancoRegDatos_BinomioAlCuadrado",Banco);
 end
 
 always @*
 begin
-	if(RegWrite<=1'b1)begin 
+	if(RegWrite==1'b1)begin 
 		Banco[Dir]<=Di;
 	end
 		DR1<=Banco[RA1];

@@ -9,7 +9,8 @@ module UnidadDeControl(
 	output reg[3:0]ALUOP,
 	output reg MemWrite,
 	output reg ALUSrc,
-	output reg RegWrite
+	output reg RegWrite,
+	output reg Jump
 );
 
 always @*
@@ -26,6 +27,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b1;
 		ALUSrc = 1'b0;
+		Jump = 1'b0;
 		end
 	// instrucciones tipo I
 		6'b001000: // instruccion addi
@@ -38,6 +40,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b001101: // instruccion ori
 		begin
@@ -49,6 +52,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b001100: // instruccion andi
 		begin
@@ -60,6 +64,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b100011: // instruccion lw
 		begin
@@ -71,6 +76,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b101011: // instruccion sw
 		begin
@@ -82,6 +88,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b001010: // instruccion slti
 		begin
@@ -93,6 +100,7 @@ begin
 		Branch = 1'b0;
 		RegDst = 1'b0;
 		ALUSrc = 1'b1;
+		Jump = 1'b0;
 		end
 		6'b000100: // instruccion beq
 		begin
@@ -104,6 +112,7 @@ begin
 		Branch = 1'b1;
 		RegDst = 1'b0;
 		ALUSrc = 1'b0;
+		Jump = 1'b0;
 		end
 		6'b000101: // instruccion bne
 		begin
@@ -115,6 +124,7 @@ begin
 		Branch = 1'b1;
 		RegDst = 1'b0;
 		ALUSrc = 1'b0;
+		Jump = 1'b0;
 		end
 		6'b000111: // instruccion bgtz
 		begin
@@ -126,8 +136,20 @@ begin
 		Branch = 1'b1;
 		RegDst = 1'b0;
 		ALUSrc = 1'b0;
+		Jump = 1'b0;
 		end
-		// instruccion tipo j
+		6'b000010: // instruccion tipo j
+		begin
+		ALUOP = 4'b0000;	
+		MemToReg = 1'b0;
+		MemWrite = 1'b0;
+		MemRead = 1'b0;
+		RegWrite = 1'b0;
+		Branch = 1'b0;
+		RegDst = 1'b0;
+		ALUSrc = 1'b0;
+		Jump = 1'b1;
+		end
 	endcase
 end
 

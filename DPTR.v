@@ -49,12 +49,16 @@ wire [4:0]c39;
 wire [31:0]c40;
 wire c41;
 wire [1:0]c42;
-wire [2:0]c43;
+wire [3:0]c43;
 wire [5:0]c44;
 wire [1:0]c45;
-wire [2:0]c46;
+wire [3:0]c46;
 wire [1:0]c47;
-
+wire [25:0]c48;
+wire [27:0]c49;
+wire [31:0]c50;
+wire [31:0]c51;
+wire c52;
 
 //3 asig y Cuerpo del modulo
 //instancias
@@ -70,7 +74,7 @@ bufferif_id bufferif_id(
 );
 
 PC PC(
-    .entrada(c3),
+    .entrada(c51),
 	.clk(clk),
 	.salida(c1)
 );
@@ -100,6 +104,8 @@ bufferid_ex bufferid_ex(
 	.Reg_Dst(c36),
 	.Alu_Op(c18),
 	.Alu_Src(c17),
+	.Jump(c52),
+	.inst25_0(c6[25:0]),
 	.clk(clk),
 	.EX(c44),
 	.M(c43),
@@ -109,9 +115,22 @@ bufferid_ex bufferid_ex(
 	.salidard2(c13),
 	.salidasignext(c14),
 	.salidainst20_16(c15),
-	.salidainst15_11(c16)
+	.salidainst15_11(c16),
+	.salidainst25_0(c48)
 );
 
+shift_left2_InstruccionesJ shift_left2_InstruccionesJ(
+	.entrada(c48), 
+	.resultado(c49)
+);
+
+// multiplexor de Instrucciones tipo J o Tipo  R e I a pc
+Mux2_1_32 muxInstTipoJtoPC(
+    .A(c3),
+	.B(c50),
+	.selec(c46[3]),
+	.Resultado(c51)
+);
 
 bufferex_mem  bufferex_mem(
 	.add2(c21),
@@ -121,6 +140,8 @@ bufferex_mem  bufferex_mem(
 	.zero(c22),
 	.wb(c42),
 	.m(c43),
+	.instTipoJ(c49),
+	.add131_28(c11[31:28]),
 	.clk(clk),
 	.salida_wb(c45),
 	.salida_m(c46),
@@ -128,7 +149,8 @@ bufferex_mem  bufferex_mem(
 	.salidard2(c29),
 	.salidaresulalu(c28),
 	.salidamux(c30),
-	.salidaZero(c27)
+	.salidaZero(c27),
+	.salidainstTipoJ(c50)
 );
 
 buffermem_wb buffermem_wb(
@@ -161,7 +183,8 @@ UnidadDeControl UnidadDeControl(
 	.ALUOP(c18),
 	.MemWrite(c33),
 	.ALUSrc(c17),
-	.RegWrite(c7)
+	.RegWrite(c7),
+	.Jump(c52)
 );
 
 // multiplexor de MemInst a BR //

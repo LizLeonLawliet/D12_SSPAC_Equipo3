@@ -7,15 +7,18 @@ module bufferex_mem(
 	input [4:0] mux,
 	input zero,
 	input [1:0]wb,
-	input [2:0]m,
+	input [3:0]m,
+	input [27:0]instTipoJ,
+	input [3:0]add131_28,
 	input clk,
 	output reg [1:0]salida_wb,
-	output reg [2:0]salida_m,
+	output reg [3:0]salida_m,
 	output reg [31:0] salidAdd2,
 	output reg [31:0] salidard2,
 	output reg [31:0] salidaresulalu,
 	output reg [4:0] salidamux,
-	output reg salidaZero
+	output reg salidaZero,
+	output reg [31:0] salidainstTipoJ
 );
 // 2.- DEFINICIÓN DE REGISTROS Y CABLES
 // 3.- CUERPO DEL MÓDULO, ASIGNACIONES
@@ -28,6 +31,7 @@ initial begin
 	salidaresulalu=0;
 	salidamux=0;
 	salidaZero=0;
+	salidainstTipoJ=0;
 end
 
 always @(posedge clk)
@@ -39,5 +43,6 @@ begin
 	salidard2 = rd2;
 	salidamux = mux;
 	salidaZero = zero;
+	salidainstTipoJ = {add131_28,instTipoJ};
 end
 endmodule
